@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+img.logo{
+  width: 99.9%;
+}
+
+img.logo2, img.logo3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1{
+  color: white;
+  padding-left: 80px;
+  text-align: center;
+
+
+}
+
+
+p{
+  color: white;
+  text-align: center;
+}
+
+h2{
+  background-color: rgb(29, 33, 44);
+  color: white;
+  padding: 15px;
+  margin: 0;
+  text-align: center;
+}
+
+
+.content{
+  background-image: url(images/BG2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 85%;
+    margin-top: -1.5%;
+  margin-left: 15%;
+
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(29, 30, 44);
+    overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.gallery{
+  margin-left: 15%;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+
+    color: white;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1d212c+1,9b1a47+31,fc5573+70,e98226+100 */
+background: #1d212c; /* Old browsers */
+background: -moz-linear-gradient(left,  #1d212c 1%, #9b1a47 31%, #fc5573 70%, #e98226 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #1d212c 1%,#9b1a47 31%,#fc5573 70%,#e98226 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #1d212c 1%,#9b1a47 31%,#fc5573 70%,#e98226 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d212c', endColorstr='#e98226',GradientType=1 ); /* IE6-9 */
+
+
+}
